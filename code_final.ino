@@ -131,7 +131,7 @@ void loop() {
   {
    
    //on tire une sting au hasard du tableau créé auparavant
-   strcpy_P(buffer, (char *)pgm_read_word(&(string_table[random(59)])));
+   strcpy_P(buffer, (char *)pgm_read_word(&(string_table[random(9)])));
 
    //on donne les valeurs pour la variable angle1 et angle2
    (angle1 = 0);
